@@ -1,0 +1,118 @@
+[[package]]
+name = "colorama"
+version = "0.3.7"
+description = "Cross-platform colored terminal text."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "future"
+version = "0.18.3"
+description = "Clean single-source support for Python 3 and 2"
+category = "main"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[[package]]
+name = "jsbeautifier"
+version = "1.6.2"
+description = "JavaScript unobfuscator and beautifier."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+six = ">=1.6.1"
+
+[[package]]
+name = "peepdf"
+version = "0.4.2"
+description = ""
+category = "main"
+optional = false
+python-versions = "*"
+develop = false
+
+[package.dependencies]
+colorama = ">=0.3.7"
+future = ">=0.16.0"
+jsbeautifier = "1.6.2"
+Pillow = ">=3.2.0"
+pythonaes = "1.0"
+
+[package.source]
+type = "git"
+url = "https://github.com/enzok/peepdf.git"
+reference = "HEAD"
+resolved_reference = "28e8118a1ceb69d809eac5f5f88e1c6b49430e63"
+
+[[package]]
+name = "Pillow"
+version = "3.2.0"
+description = "Python Imaging Library (Fork)"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pythonaes"
+version = "1.0"
+description = "UNKNOWN"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "six"
+version = "1.16.0"
+description = "Python 2 and 3 compatibility utilities"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "7d50b4f01d17c49f84ac22b0299990fa01bb13fc2fb80cb89447f2ea981b2410"
+
+[metadata.files]
+colorama = [
+    {file = "colorama-0.3.7-py2.py3-none-any.whl", hash = "sha256:a4c0f5bc358a62849653471e309dcc991223cf86abafbec17cd8f41327279e89"},
+    {file = "colorama-0.3.7.tar.gz", hash = "sha256:e043c8d32527607223652021ff648fbb394d5e19cba9f1a698670b338c9d782b"},
+    {file = "colorama-0.3.7.zip", hash = "sha256:f4945bf52ae49da0728fe730a33c18744803752fc948f154f29dc0c4f9f2f9cc"},
+]
+future = [
+    {file = "future-0.18.3.tar.gz", hash = "sha256:34a17436ed1e96697a86f9de3d15a3b0be01d8bc8de9c1dffd59fb8234ed5307"},
+]
+jsbeautifier = [
+    {file = "jsbeautifier-1.6.2.tar.gz", hash = "sha256:a49d28f40fe41650fbb8738b9020f5bc8ec9eaeb2c812741d42beff29b8b7017"},
+]
+peepdf = []
+Pillow = [
+    {file = "Pillow-3.2.0-cp26-none-win32.whl", hash = "sha256:f6e89c3b024a13060de19732e82d1dfd657cdf46b15d647c0f0f5aaa07a6a419"},
+    {file = "Pillow-3.2.0-cp26-none-win_amd64.whl", hash = "sha256:46cbc1d1487a9c590708e9e135530ac94af8373bf1e8ef0c7acf6cc46c84d3c4"},
+    {file = "Pillow-3.2.0-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:d6b2adbbe7dee2921495192aa1b7a1716fc54dd97398afed1a7b5198c0f5724a"},
+    {file = "Pillow-3.2.0-cp27-none-win32.whl", hash = "sha256:e4569d651d60845ea99ab14a3b2bf11dc3e8c6000ad561e7ed0b15e06e3124ae"},
+    {file = "Pillow-3.2.0-cp27-none-win_amd64.whl", hash = "sha256:696f091bd03ec954f166680538fbe913e7b03c06178065d19b3fc2f70ef29ac8"},
+    {file = "Pillow-3.2.0-cp32-none-win32.whl", hash = "sha256:36d16b01e0f5f08b26390493c841b6eee82f571a40af8b8feaa586e5c702b866"},
+    {file = "Pillow-3.2.0-cp32-none-win_amd64.whl", hash = "sha256:c3af438e50c4379e5f1627ed325dc016fe2d2a84be581b87bbbbd9ff33cc87ee"},
+    {file = "Pillow-3.2.0-cp33-cp33m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:162710ff01d5b5f8ffdabeb9165d81bf0065b055bbdb0e9c305829db1f0185d4"},
+    {file = "Pillow-3.2.0-cp33-none-win32.whl", hash = "sha256:00054818f702cf6b30e7ce30d798b37e090a01d2eb1be4b9c84f8181f18fe837"},
+    {file = "Pillow-3.2.0-cp33-none-win_amd64.whl", hash = "sha256:922591fbb379d7a8413d4b3dcb8351e713f883f66b9da82186e8e6e8a75761f8"},
+    {file = "Pillow-3.2.0-cp34-cp34m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:60909074cad96401759cbd7b90af4e0cea08df3357b97f469bb2b71991800c2f"},
+    {file = "Pillow-3.2.0-cp34-none-win32.whl", hash = "sha256:c3a8a84d65ee8b14b98da9d3b9ba214cea76abc567684abccae369f9af05d767"},
+    {file = "Pillow-3.2.0-cp34-none-win_amd64.whl", hash = "sha256:e1b8f3b71309c8332fa5c37e829b844c7dde29d3eb0faf7e3a26bc0a7b9129c5"},
+    {file = "Pillow-3.2.0-cp35-cp35m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:8c0587c85203e634ccb5f9c115af3a767923bc2f07a1d29af2ca05c2092510a2"},
+    {file = "Pillow-3.2.0-cp35-none-win32.whl", hash = "sha256:2d32807d51ad332a44688c6f4600843fe45d675ae8a9dbbff1c4aab5a403f430"},
+    {file = "Pillow-3.2.0-cp35-none-win_amd64.whl", hash = "sha256:0419410893c45cf523e424dae133587eea3107b92b768b5876b58760c69852be"},
+    {file = "Pillow-3.2.0.tar.gz", hash = "sha256:64b0a057210c480aea99406c9391180cd866fc0fd8f0b53367e3af21b195784a"},
+    {file = "Pillow-3.2.0.zip", hash = "sha256:cc44c54b432b27c59e3d0bc048a5a7581b13944c14c56c94634cfe8d5eabade5"},
+]
+pythonaes = [
+    {file = "pythonaes-1.0.tar.gz", hash = "sha256:71dd31c03500b8cba06f83f17603dcca1dd1c1308fbdaef752f353ed1aaf9f67"},
+]
+six = [
+    {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
+    {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
+]

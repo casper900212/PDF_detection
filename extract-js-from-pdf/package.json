@@ -1,0 +1,14 @@
+{
+  "name": "extract-js-from-pdf",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deobfuscate": "synchrony deobfuscate"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "deobfuscator": "^2.4.2"
+  }
+}

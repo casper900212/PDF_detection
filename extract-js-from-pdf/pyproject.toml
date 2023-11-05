@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "extract-js-from-pdf"
+version = "0.1.0"
+description = ""
+authors = ["Xyphuz <hansen0715.2@gmail.com>"]
+readme = "README.md"
+packages = [{include = "extract_js_from_pdf"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+peepdf = "git+https://github.com/enzok/peepdf.git"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
